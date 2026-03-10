@@ -37,12 +37,13 @@
 # 5.Text uzunligi: Text qabul qilib, unda uzunligini 
 # chiqaruvchi (tayyor len() dan foydalanmaslikka harakat qiling).
 
-# def txt_uzunlik(text):
-#     x=0
-#     for harf in text:
-#         x=x+1
-#     print("text uzunliki:",x)
-# txt_uzunlik(text=input("yozing: "))
+def text_uzunligi():
+    mant=input("Matnni kirgizing :")
+    uzunlik=0
+    for i in mant:
+         uzunlik=uzunlik+1
+    print(f"Matnning uznunlik soni  : {uzunlik}")
+text_uzunligi()
 
 
                             #   O'rta daraja (Medium)
@@ -74,4 +75,5 @@
    
 # def salom_ism(ism):
 #     print(f"salom {ism.title()}")
+
 # salom_ism(ism=input("ismingiz: "))
